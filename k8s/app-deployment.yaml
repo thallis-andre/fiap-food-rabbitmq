@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: fiap-food-rabbitmq
-          image: gm50x/rabbitmq:3-management-delayed
+          image: ghcr.io/gm50x/rabbitmq:3-management-delayed
           imagePullPolicy: Always
           envFrom:
             - secretRef:
