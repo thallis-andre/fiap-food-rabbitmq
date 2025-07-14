@@ -10,6 +10,7 @@ on:
 env:
   RABBITMQ_USER: "${{secrets.RABBITMQ_USER}}"
   RABBITMQ_PASS: "${{secrets.RABBITMQ_PASS}}"
+  AWS_ACCOUNT_ID: "${{secrets.AWS_ACCOUNT_ID}}"
 
 jobs:
   build-container:
